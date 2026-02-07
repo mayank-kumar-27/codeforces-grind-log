@@ -27,7 +27,7 @@ Each folder represents a single problem:
 Codeforces-Grind-Log/
 ├── 4A_Watermelon/
 │   └── solution.c
-    └── solution.java
+│   └── solution.java
 ├── 41A_Translation/
 │   ├── solution.c
 │   └── solution.py
