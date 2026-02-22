@@ -6,10 +6,10 @@ public class Solution {
         int[] arr = new int[n];
         for (int i = 0; i < n; i++) arr[i] = sc.nextInt();
 
-        int max = 0, l = 0;
+        int max = 1, l = 1;
         for (int i = 1; i < n; i++) {
             if (arr[i] > arr[i - 1]) l++;
-            else { max = max > l ? max : l; l = 0; }
+            else { max = max > l ? max : l; l = 1; }
         }
         max = max > l ? max : l;
         System.out.println(max);
